@@ -10,4 +10,4 @@
 
 4. Asegúrate de que los elementos de las columnas correspondientes de los nuevos data frames sean del mismo tipo (Hint 1: usa `as.Date` y `mutate` para arreglar las fechas). Con ayuda de la función `rbind` forma un único data frame que contenga las seis columnas mencionadas en el punto 3 (Hint 2: la función `do.call` podría ser utilizada).
 
-![Tabla final](https://github.com/iGera97/Curso-BEDU-Modulo-2-R/blob/main/PostWork2/tabla2.png "Tabla final")
+![Tabla final](https://github.com/iGera97/Curso-BEDU-Modulo-2-R/blob/main/Screenshots/tabla2.png "Tabla final")
