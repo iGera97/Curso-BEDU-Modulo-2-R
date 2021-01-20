@@ -1,4 +1,4 @@
-#1. Con el último data frame obtenido en el postwork de la sesión 2, elabora tablas
+#1. Con el Ãºltimo data frame obtenido en el postwork de la sesiÃ³n 2, elabora tablas
 #  de frecuencias relativas para estimar las siguientes probabilidades:
 df.17_18 <- read.csv("https://www.football-data.co.uk/mmz4281/1718/SP1.csv")
 df.18_19 <- read.csv("https://www.football-data.co.uk/mmz4281/1819/SP1.csv")
@@ -33,8 +33,8 @@ t.17_20 <- table(g.home,g.away)
 conjunta <- prop.table(t.17_20)
 
 #2. Realiza lo siguiente:
-#Un gráfico de barras para las probabilidades marginales estimadas
-#del número de goles que anota el equipo de casa
+#Un grÃ¡fico de barras para las probabilidades marginales estimadas
+#del nÃºmero de goles que anota el equipo de casa
 library(ggplot2)
 df.marginal.home <- as.data.frame(marginal.home)
 ggplot(df.marginal.home,aes(x=g.home,y=Freq,fill=Freq))+
@@ -43,8 +43,8 @@ ggplot(df.marginal.home,aes(x=g.home,y=Freq,fill=Freq))+
   xlab("Goles a anotar")+ylab("Probabilidad de anotar")+
   labs(fill="Goles")+  scale_fill_gradientn(colours = cm.colors(9)) 
 
-#Un gráfico de barras para las probabilidades marginales estimadas
-#del número de goles que anota el equipo visitante.
+#Un grÃ¡fico de barras para las probabilidades marginales estimadas
+#del nÃºmero de goles que anota el equipo visitante.
 df.marginal.away <- as.data.frame(marginal.away)
 ggplot(df.marginal.away,aes(x=g.away,y=Freq,fill=Freq))+
   geom_bar(stat = "identity",position ="stack",col="black")+
@@ -53,14 +53,13 @@ ggplot(df.marginal.away,aes(x=g.away,y=Freq,fill=Freq))+
   labs(fill="Goles") +
   scale_fill_gradientn(colours = topo.colors(7))
 
-#Un HeatMap para las probabilidades conjuntas estimadas de los números
+#Un HeatMap para las probabilidades conjuntas estimadas de los nÃºmeros
 #de goles que anotan el equipo de casa y el equipo visitante en un partido.
 conjunta
 df.conjunta <- as.data.frame(conjunta)
 
 ggplot(df.conjunta,aes(x=g.away,y=g.home,fill=Freq))+geom_tile()+
   scale_fill_gradientn(colours = rainbow(10))+
-  ggtitle("Probabilidades conjuntas de los goles que anotan el equipo local y visitante")+
+  ggtitle("Probabilidades conjuntas de los goles que anoten x goles el equipo local y visitante")+
   xlab("Goles equipo visitante")+ylab("Goles equipo local")+
   labs(fill="Probabilidad")
-
