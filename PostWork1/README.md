@@ -14,7 +14,8 @@ Posteriormente elabora tablas de frecuencias relativas para estimar las siguient
 
 - La probabilidad (marginal) de que el equipo que juega como visitante anote y goles (y = 0, 1, 2, ...)
 
-[![Probabilidades marginales](https://github.com/iGera97/Curso-BEDU-Modulo-2-R/blob/main/PostWork1/marginales1.png "Probabilidades marginales")](http://https://github.com/iGera97/Curso-BEDU-Modulo-2-R/blob/main/PostWork1/marginales1.png "Probabilidades marginales")
+![Marginales](https://github.com/iGera97/Curso-BEDU-Modulo-2-R/blob/main/PostWork1/marginales1.png "Marginales")
 
 - La probabilidad (conjunta) de que el equipo que juega en casa anote x goles y el equipo que juega como visitante anote y goles (x = 0, 1, 2, ..., y = 0, 1, 2, ...)
 
+![Conjuntas1](https://github.com/iGera97/Curso-BEDU-Modulo-2-R/blob/main/PostWork1/conjunta1.png "Conjuntas1")
