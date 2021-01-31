@@ -8,4 +8,8 @@
 
 3. Con ayuda de la función `unique` crea un vector de fechas (`fecha`) que no se repitan y que correspondan a las fechas en las que se jugaron partidos. Crea una variable llamada `n` que contenga el número de fechas diferentes. Posteriormente, con la función `rank.teams` y usando como argumentos los data frames `anotaciones` y `equipos`, crea un ranking de equipos usando unicamente datos desde la fecha inicial y hasta la penúltima fecha en la que se jugaron partidos, estas fechas las deberá especificar en `max.date` y `min.date`. Guarda los resultados con el nombre `ranking`.
 
+![Tabla 5_3](https://github.com/iGera97/Curso-BEDU-Modulo-2-R/blob/main/Screenshots/tabla%205.3.png "Tabla 5_3")
+
 4. Finalmente estima las probabilidades de los eventos, el equipo de casa gana, el equipo visitante gana o el resultado es un empate para los partidos que se jugaron en la última fecha del vector de fechas `fecha`. Esto lo puedes hacer con ayuda de la función `predict` y usando como argumentos `ranking` y `fecha[n]` que deberá especificar en `date`.
+
+![Tabla 5_4](https://github.com/iGera97/Curso-BEDU-Modulo-2-R/blob/main/Screenshots/tabla%205.4.png "Tabla 5_4")
