@@ -20,4 +20,4 @@ Importa el conjunto de datos match.data.csv a `R` y realice lo siguiente:
 
 4. Grafica la serie de tiempo.
 
-![Tabla 6_4](https://github.com/iGera97/Curso-BEDU-Modulo-2-R/blob/main/Screenshots/tabla%206.4.png "Tabla 6_4")
+![Grafico 6_4](https://github.com/iGera97/Curso-BEDU-Modulo-2-R/blob/main/Screenshots/Grafico%206.4.png "Grafico 6_4")
