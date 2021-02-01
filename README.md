@@ -1,4 +1,4 @@
-# PostWorks DataScience Modulo 2. Rstudio
+# PostWorks DataScience Modulo 2. Rstudio-Equipo 2
 En este repositorio se encuentran los archivos .R  y screenshots de cada Postwork solicitado en el modulo de R:
 
 - [PostWork 1](https://github.com/iGera97/Curso-BEDU-Modulo-2-R/tree/main/PostWork1)
